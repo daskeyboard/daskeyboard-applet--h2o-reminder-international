@@ -10,7 +10,7 @@ Drink water is essential for the health. Just complet the different information,
 
 The "H" key will blink yellow every hour and :10 minutes to remind you to drink water.
 
-![H2O Reminder International on a Das Keybaord Q](assets/image.png"H2O Reminder International result")
+![H2O Reminder International on a Das Keybaord Q](assets/image.png "H2O Reminder International result")
 
 ## Changelog
 
