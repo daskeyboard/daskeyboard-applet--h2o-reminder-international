@@ -7,13 +7,18 @@ describe('H2O', () => {
 
   describe('#run()', () => {
 
-    // Simulate the customer is a  man
-    it('should build the app and configure it to trigger every hour at :55, the customer is a man', async function () {
+    // Simulate the customer is a man with different information
+    it('should build the app and configure it to trigger every hour at :55, with a special config', async function () {
       const config = {
         applet: {
           user: {
+            userGenderValue: "man",
+            enterYourAge : 25,
+            enterYourWeight : 55,
+            activityLevel : "sedantary",
+            weatherDay : "normal-day",
             minuteAfterTheHour: 55,
-            Man: true,
+            colorBlinkingKey : "#F6FF00"
           }
         }
       }
@@ -30,7 +35,7 @@ describe('H2O', () => {
           // assert signal received
           assert.ok(signal);
           // assert color of first point is green
-          assert.equal(signal.points[0][0].color, '#FF0000');
+          assert.equal(signal.points[0][0].color, '#F6FF00');
           // assert blinking
           assert.equal(signal.points[0][0].effect, daskeyboardModule.Effects.BLINK);
 
