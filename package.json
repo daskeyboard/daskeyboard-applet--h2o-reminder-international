@@ -48,7 +48,7 @@
         "help": "",
         "required": true,
         "order": 1,
-        "value": "Man",
+        "value": "man",
         "controlType": "dropdown",
         "options": [{
             "key": "man",
@@ -71,12 +71,12 @@
       },
       {
         "key": "enterYourWeight",
-        "label": "Enter your Weight",
+        "label": "Enter your Weight (kg)",
         "help": "",
         "required": true,
         "order": 3,
         "controlType": "textbox",
-        "value": "25"
+        "value": "55"
       },
       {
         "key": "activityLevel",
@@ -84,7 +84,7 @@
         "help": "",
         "required": true,
         "order": 4,
-        "value": "Sedentary",
+        "value": "sedentary",
         "controlType": "dropdown",
         "options": [{
             "key": "sedentary",
@@ -106,7 +106,7 @@
         "help": "",
         "required": true,
         "order": 6,
-        "value": "Normal day",
+        "value": "normal-day",
         "controlType": "dropdown",
         "options": [
           {
