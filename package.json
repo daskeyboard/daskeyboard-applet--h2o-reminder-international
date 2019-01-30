@@ -57,6 +57,10 @@
           {
             "key": "woman",
             "value": "Woman"
+          },
+          {
+            "key": "man",
+            "value": "Not Sure"
           }
         ]
       },
@@ -71,7 +75,7 @@
       },
       {
         "key": "enterYourWeight",
-        "label": "Enter your Weight (kg)",
+        "label": "Enter your Weight (Kg)",
         "help": "",
         "required": true,
         "order": 3,
@@ -102,7 +106,7 @@
       },
       {
         "key": "weatherDay",
-        "label": "Choose tempeture today",
+        "label": "What is the weather like today?",
         "help": "",
         "required": true,
         "order": 6,
@@ -124,7 +128,7 @@
         "label": "Choose how many minutes past the hour this applet should go off.",
         "help": "",
         "required": true,
-        "order": 6,
+        "order": 7,
         "value": "0",
         "controlType": "dropdown",
         "options": [{
@@ -366,6 +370,33 @@
           {
             "key": 59,
             "value": " :59"
+          }
+        ]
+      },
+      {
+        "key": "colorBlinkingKey",
+        "label": "Wich color would you want for your bliking key?",
+        "help": "",
+        "required": true,
+        "order": 8,
+        "value": "#F6FF00",
+        "controlType": "dropdown",
+        "options": [
+          {
+            "key": "#F6FF00",
+            "value": "Yellow"
+          },
+          {
+            "key": "#FF0000",
+            "value": "Red"
+          },
+          {
+            "key": "#00DDFF",
+            "value": "Blue"
+          },
+          {
+            "key": "#00FF00",
+            "value": "Green"
           }
         ]
       }
