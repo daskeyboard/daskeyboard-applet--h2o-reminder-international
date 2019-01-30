@@ -1,17 +1,16 @@
-# Q Applet: H2O Reminder
+# Q Applet: H2O Reminder International
 
-Do you find yourself sitting at your desk for long periods of time?
-This applet is for people who find it difficult to fit exercise into their busy schedule. The `Workout Reminder` applet allows to set up reminders to start working out every hours during the workday.
-
-Workout routine can be customized by choosing from a list of 12 exercises.
+Do you drink enough water?
+Do you always forget to drink water regularly?
+Drink water is essential for the health. Just complet the different information, and the `H2O Reminder International` allows to track the quantity of water, and reminds to drink water each hour.
 
 [GitHub repository](https://github.com/daskeyboard/daskeyboard-applet--workout-reminder)
 
 ## Example
 
-The "P" key will blink green every hour and :10 minutes to remind you start the workout routine.
+The "H" key will blink yellow every hour and :10 minutes to remind you to drink water.
 
-![H2O Reminder on a Das Keybaord Q](assets/image.png"H2O Reminder result")
+![H2O Reminder International on a Das Keybaord Q](assets/image.png"H2O Reminder International result")
 
 ## Changelog
 

@@ -1,8 +1,7 @@
-# H2O Reminder
+# H2O Reminder International
 
-Do you find yourself sitting at your desk for long periods of time?
-This applet is for people who find it difficult to fit exercise into their busy schedule. The `Workout Reminder` applet allows to set up reminders to start working out every hours during the workday.
+Do you drink enough water?
+Do you always forget to drink water regularly?
+Drink water is essential for the health. Just complet the different information, and the `H2O Reminder International` allows to track the quantity of water, and reminds to drink water each hour.
 
-Workout routine can be customized by choosing from a list of 12 exercises.
-
-![Pushup Reminder on a Das Keybaord Q](assets/image.png "Pushup Reminder config and result")
+![H2O Reminder International on a Das Keybaord Q](assets/image.png "H2O Reminder International config and result")
