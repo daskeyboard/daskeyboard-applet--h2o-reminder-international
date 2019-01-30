@@ -1,9 +1,9 @@
 {
-  "name": "daskeyboard-applet--h2o-reminder",
-  "displayName": "H2O Reminder",
+  "name": "daskeyboard-applet--h2o-reminder-international",
+  "displayName": "H2O Reminder International",
   "publisher": "Das Keyboard",
   "version": "1.0.0",
-  "description": "Hourly H2O reminder",
+  "description": "Hourly H2O Reminder International",
   "longDescription": "Get H2O alerts directly on a Das Keybaord Q devices.",
   "officialProductName": "H2O Reminder",
   "publisherName": "Das Keyboard",
