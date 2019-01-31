@@ -5,7 +5,7 @@ Do you drink enough water during the day?
 Drink water is essential for an healthy life. This applet will remind
 you to drink every hour the right quantity of water based on your body mass, gender and life style.
 
-[GitHub repository](https://github.com/daskeyboard/daskeyboard-applet--h2o-reminder-international)
+[GitHub repository](https://github.com/daskeyboard/daskeyboard-applet--workout-reminder)
 
 ## Example
 
