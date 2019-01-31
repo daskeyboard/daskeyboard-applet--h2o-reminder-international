@@ -16,7 +16,6 @@ describe('H2O', () => {
             enterYourAge : 25,
             enterYourWeight : 55,
             activityLevel : "sedantary",
-            weatherDay : "normal-day",
             minuteAfterTheHour: 55,
             colorBlinkingKey : "#F6FF00"
           }
@@ -54,7 +53,6 @@ describe('H2O', () => {
           enterYourAge : 25,
           enterYourWeight : 90,
           activityLevel : "regular",
-          weatherDay : "hot-day",
           minuteAfterTheHour: 55,
           colorBlinkingKey : "#FF0000"
         }
@@ -93,7 +91,6 @@ describe('H2O', () => {
             enterYourAge : 25,
             enterYourWeight : 70,
             activityLevel : "active",
-            weatherDay : "hot-day",
             minuteAfterTheHour: 55,
             colorBlinkingKey : "#00DDFF"
           }

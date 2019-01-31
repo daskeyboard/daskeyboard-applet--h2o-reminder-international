@@ -1,14 +1,15 @@
-# Q Applet: H2O Reminder International
+# Q Applet: H2O Reminder - International
 
-Do you drink enough water?
-Do you always forget to drink water regularly?
-Drink water is essential for the health. Just complet the different information, and the `H2O Reminder International` allows to track the quantity of water, and reminds to drink water each hour.
+Do you drink enough water during the day?
+
+Drink water is essential for an healthy life. This applet will remind
+you to drink every hour the right quantity of water based on your body mass, gender and life style.
 
 [GitHub repository](https://github.com/daskeyboard/daskeyboard-applet--workout-reminder)
 
 ## Example
 
-The "H" key will blink yellow every hour and :10 minutes to remind you to drink water.
+The "H" key will blink yellow every hour and :30 minutes to remind you to drink water.
 
 ![H2O Reminder International on a Das Keybaord Q](assets/image.png "H2O Reminder International result")
 
@@ -25,7 +26,7 @@ the Q Desktop application (https://www.daskeyboard.com/q)
 
 ## Running tests
 
-The test.js file is not finished.
+- `yarn test`
 
 ## Contributions
 

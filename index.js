@@ -1,5 +1,5 @@
 const q = require('daskeyboard-applet');
-const logger = q.logger; // to access to the logger
+const logger = q.logger;
 const moment = require('moment');
 
 
@@ -7,12 +7,8 @@ function calculateTheOriginQuantity(age, weight){
   return age * weight;
 }
 
-function hotdayFunction (waterQuantity) {
-  return waterQuantity+ (waterQuantity *(5/100));
-}
-
 function addWaterForMan(waterQuantityForMan){
-  return waterQuantityForMan+ (waterQuantityForMan * (20/100));
+  return waterQuantityForMan + (waterQuantityForMan * (20/100));
 }
 
 const mytIntRegular = 500;
@@ -50,14 +46,12 @@ class H2O extends q.DesktopApp {
        
     const userValueMan ="man";
     const activeLevel = "active";
-    const hotDay = "hot-day";
     const regularLevel = "regular";
 
     const userGenderValue = this.config.userGenderValue;
     const enterYourAge = this.config.enterYourAge;
     const enterYourWeight = this.config.enterYourWeight;
     const activityLevel = this.config.activityLevel;
-    const weatherDay = this.config.weatherDay;
     const colorBlinkingKey = this.config.colorBlinkingKey;
 
     const minuteAfterTheHour = this.config.minuteAfterTheHour;
@@ -72,20 +66,13 @@ class H2O extends q.DesktopApp {
 
     let quantityofWater;
     quantityofWater = calculateTheOriginQuantity (enterYourAge, enterYourWeight);
-    
-
+  
     if (userGenderValue == userValueMan || userGenderValue == userValueMan){ 
       quantityofWater = addWaterForMan (quantityofWater);
     } 
     else {
       console.log ("quantity of water you need to drink", quantityofWater);
     }
-    if (weatherDay == hotDay){
-      quantityofWater = hotdayFunction (quantityofWater);
-    }
-    else {
-      console.log ("quantity of water you need to drink", quantityofWater);
-     }
     if (activityLevel == activeLevel){
       quantityofWater = levelActivityActive(quantityofWater);
     }
@@ -106,7 +93,7 @@ class H2O extends q.DesktopApp {
           [new q.Point(colorBlinkingKey, q.Effects.BLINK)]
         ],
         name: 'H2O Reminder International',
-        message: `It's time to drink ${Math.round((quantityofWater)/10)} mL`
+        message: `It's time to drink ${Math.round((quantityofWater + quantityofWater*(2.5/100))/10)} mL`
       });
     }
   }
