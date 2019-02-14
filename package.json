@@ -2,7 +2,7 @@
   "name": "daskeyboard-applet--h2o-reminder-international",
   "displayName": "H2O Reminder - International",
   "publisher": "Das Keyboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hourly H2O Reminder International",
   "longDescription": "Get H2O alerts directly on a Das Keybaord Q devices.",
   "officialProductName": "H2O Reminder - International",
@@ -169,25 +169,7 @@
         "required": true,
         "order": 6,
         "value": "#F6FF00",
-        "controlType": "dropdown",
-        "options": [
-          {
-            "key": "#F6FF00",
-            "value": "Yellow"
-          },
-          {
-            "key": "#FF0000",
-            "value": "Red"
-          },
-          {
-            "key": "#00DDFF",
-            "value": "Blue"
-          },
-          {
-            "key": "#00FF00",
-            "value": "Green"
-          }
-        ]
+        "controlType": "color"
       }
     ],
     "requirements": {
@@ -197,6 +179,6 @@
     }
   },
   "devDependencies": {
-    "mocha": "^5.2.0"
+    "mocha": "^8.3.2"
   }
 }
