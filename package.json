@@ -169,25 +169,7 @@
         "required": true,
         "order": 6,
         "value": "#F6FF00",
-        "controlType": "dropdown",
-        "options": [
-          {
-            "key": "#F6FF00",
-            "value": "Yellow"
-          },
-          {
-            "key": "#FF0000",
-            "value": "Red"
-          },
-          {
-            "key": "#00DDFF",
-            "value": "Blue"
-          },
-          {
-            "key": "#00FF00",
-            "value": "Green"
-          }
-        ]
+        "controlType": "color"
       }
     ],
     "requirements": {
